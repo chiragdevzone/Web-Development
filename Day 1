@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WsCube Tech</title>
+</head>
+<body>
+    WsCube <br>Tech
+    <hr>
+    <h1>WsCube Tech</h1>
+    <h2>WsCube Tech</h2>
+    <h3>WsCube Tech</h3>
+    <h4>WsCube Tech</h4>
+    <h5>WsCube Tech</h5>
+    <h6>WsCube Tech</h6>
+
+    <p>
+       <u>Lorem ipsum dolor</u>  sit amet consectetur adipisicing elit. <b>Sequi fuga ad sit hic</b>  odit tenetur ipsa <strong>accusantium</strong>, recusandae nam beatae, eos tempora nihil et. Harum id quae fugiat maiores sit neque atque voluptatem,<del>reprehenderit voluptatum molestiae eveniet quas nemo,</del>  nesciunt dolore. Aspernatur veritatis <mark>numquam </mark>    perferendis obcaecati vel. Possimus,<i> voluptates nam?</i>
+    </p>
+
+    <h1>ordered list</h1>
+    <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h1>Unordered list</h1>
+    <ul type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h1>nested list</h1>
+    
+        <ul>
+            <li>Frontend
+                <ul>
+                    <li>HTML 
+                        <ol>
+                            <li>HTML 5</li>
+                        </ol>
+                    </li>    
+                    <li>CSS 
+                        <ol>
+                            <li>CSS 3</li>
+                            <li>Bootstrap</li>
+                        </ol>
+                    </li>
+                    <li>JavaScript
+                        <ol>
+                            <li>jQuery</li>
+                        </ol>
+                    </li>
+               
+                </ul>
+            </li>
+           
+            
+            <li>Backend
+            <ul>
+                <li>PHP</li>
+                <li>Database</li>
+                <li>Ajax</li>
+            </ul>
+            </li>
+        </ul>
+
+        <img src="images/chirag.jpg" alt="this is chirag's image" title="beautiful" width="500px" height="500px" />
+        <br>
+        <a href="images/chirag.jpg" target="_blank">show image</a>
+        <br>
+        <center>
+            a<sup>2</sup>+b<sup>2</sup>
+            <br>
+            log<sub>2</sub>45
+        </center>
+        <meter max="100" min="0" value="40"></meter>
+        
+        <br>
+        <table border="2px" align="center" bgcolor="yellow" cellspacing="10" cellpadding="10" width="400px" height="300">
+            <thead>
+                <tr>
+                    <th>course</th>
+                    <th>fees</th>
+                    <th>duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr bgcolor="pink" align="center">
+                    <td>web development</td>
+                    <td>10000</td>
+                    <td>2.5 - 3 months</td>
+                </tr>
+                <tr >
+                    <td colspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>laravel</td>
+                    <td>7000</td>
+                    <td>2 months</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
