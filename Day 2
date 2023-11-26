@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WsCube Tech</title>
+    <style>
+        .maindiv{
+            width: 400px;
+            height: 400px;
+            background-color: red;
+        }
+        .row1{
+            width: 400px;
+            height: 200px;
+            background-color: yellow;
+        }
+        .col1{
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .col2{
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .text{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            font-size: 50px;
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .para{
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            background-color: red;
+            text-decoration: underline;
+            text-transform: capitalize;
+            word-spacing: 15px;
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
+   <!-- <form action="">
+    <fieldset>
+        <legend>Enquiry</legend>
+    Name: <input type="text" name="name" value="WsCube Tech" readonly="" disabled="">
+    <br><br>
+    Address: <textarea name="address" id="" cols="30" rows="5">Enter your address</textarea>
+    <br><br>
+    Gender: <input type="radio" value="M" name="gender">Male
+            <input type="radio" value="F" name="gender" checked="">Female
+            <input type="radio" value="O" name="gender">Other
+    <br><br>
+    Country: <select name="country" id="">
+        <option value="">Please select your country</option>
+        <optgroup label="ASIA">
+            <option value="india">India</option>
+            <option value="srilanka">Sri Lanka</option>
+        </optgroup>
+        <optgroup label="United States">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+        </optgroup>
+    </select>
+    <br><br>
+    Hobbies:<input type="checkbox" name="hobbies" value="dancing[]" id="" checked="">Dancing
+            <input type="checkbox" name="hobbies" value="singing[]" id="">Singing   
+            <input type="checkbox" name="hobbies" value="painting[]" id="">Painting
+    <br><br>
+    Image: <input type="file">
+    <br><br>
+    <input type="submit" name="submit" id="" value="Send">
+    <input type="reset" name="reset" id="" value="Reset">
+</fieldset>
+   </form>
+   <br><br>
+   <form action="">
+        <fieldset>
+            <legend>HTML 5 form</legend>
+            Name: <input type="text" required="" placeholder="Your awesome name" autofocus="" maxlength="15">
+            <br><br>
+            Color: <input type="color" name="color" value="#ff0000">
+            <br><br>
+            Email: <input type="email" name="email" id="">
+            <br><br>
+            Password: <input type="password" name="password">
+            <br><br>
+            Age: <input type="number" name="age">
+            <br><br>
+            Secret: <input type="hidden">
+            <br><br>
+            <input type="submit" name="submit" value="Send">
+            <input type="reset" name="reset" id="">
+        </fieldset>
+   </form>
+   <br><br>0
+   <form action="">
+    <fieldset>
+        <legend>Calendar</legend>
+    Date: <input type="date">
+    <br><br>
+    Date Time: <input type="datetime-local">
+    <br><br>
+    Time: <input type="time">
+    <br><br>
+    Month: <input type="month">
+    <br><br>
+    Week: <input type="Week">
+    <br><br>
+    Range: <input type="range" min="0" max="200">
+    <br><br>
+    <input type="submit" name="submit" value="send">
+    <input type="reset" name="reset">
+</fieldset>
+   </form> -->
+
+   <!-- <div class="maindiv"> 
+        <div class="row1">
+            <div class="col1">Home</div>
+            <div class="col2">About</div>
+        </div>
+        <div class="row1"> 
+            <div class="col1">Course</div> 
+            <div class="col2">Gallery</div> 
+        </div>
+   </div> -->
+<!-- 
+   <div class="text">
+    Welcome to WsCube Tech
+   </div> -->
+
+   <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quia delectus. Sequi vitae voluptatibus magnam perferendis itaque quae. Veniam aut soluta porro aperiam aspernatur repellat quaerat qui voluptatum cumque facere!</p>
+</body>
+</html>
