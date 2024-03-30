@@ -1,0 +1,25 @@
+:root {
+  --red: #d01c28;
+  --gray: gray;
+}
+
+.navbar {
+  height: 62px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 300px;
+}
+.navlinks ul {
+  display: flex;
+  gap: 23.94px;
+  list-style: none;
+}
+.login-btn button {
+  font-size: 16px;
+  padding: 6px 16px;
+  background-color: var(--red);
+  color: white;
+  border: none;
+  cursor: pointer;
+}

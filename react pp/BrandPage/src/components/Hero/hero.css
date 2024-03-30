@@ -1,0 +1,50 @@
+.hero-section {
+  max-height: calc(100vh-300px);
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.hero-content h1 {
+  font-size: 65px;
+  line-height: 80px;
+  font-weight: 800;
+}
+.hero-content p {
+  max-width: 404px;
+  max-height: 91px;
+}
+.buttons {
+  display: flex;
+  gap: 40px;
+}
+.button1 button {
+  font-size: 16px;
+  padding: 6px 16px;
+  background-color: var(--red);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button2 button {
+  font-size: 16px;
+  padding: 6px 16px;
+  background-color: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+  cursor: pointer;
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.shops {
+  display: flex;
+  gap: 16px;
+}
