@@ -1,0 +1,14 @@
+.nav {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  color: #899ea9;
+  cursor: pointer;
+}

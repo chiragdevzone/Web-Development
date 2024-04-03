@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+
+  display: flex;
+}
+.formtext {
+  width: 50%;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.btn {
+  display: flex;
+  gap: 10px;
+}
+
+.image {
+  width: 550px;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 90%;
+  margin: 0px auto;
+}
+.formControl input {
+  height: 40px;
+  padding: 0px 5px;
+}
+.formControl label {
+  width: fit-content;
+  margin-left: 20px;
+  position: relative;
+  padding: 0px 10px;
+  top: 30px;
+  background-color: white;
+}
+.submitBtn {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.formControl textarea {
+  padding: 20px;
+}
